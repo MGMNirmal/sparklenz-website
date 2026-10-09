@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+@import './site.css';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@theme {
+    --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+    --color-paper: #F3F4F4;
+    --color-berry: #853953;
+    --color-plum: #612D53;
+    --color-ink: #2C2C2C;
+}
+
+[x-cloak] { display: none !important; }
